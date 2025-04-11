@@ -1,0 +1,41 @@
+SCM Alignment Flow (Text Version)
+
+1. [User Instruction]
+   Example: "Summarize the risks of inference-time compute"
+
+          │
+          ▼
+
+2. [Initial Context Embeddings]
+   (e.g. prior reasoning steps or retrieved facts)
+
+          │
+          ▼
+
+3. [Compute Semantic Centroid]
+   = Average(User Instruction + Context Embeddings)
+   → This forms the agent's evolving "meaning vector"
+
+          │
+          ▼
+
+4. [Candidate Outputs]
+   (Generated completions, memory pulls, or tool outputs)
+
+          │
+          ▼
+
+5. [Score Candidates via Cosine Similarity]
+   Compare each candidate embedding to the semantic centroid
+
+          │
+          ▼
+
+6. [Filter or Re-rank]
+   Keep only those outputs above a semantic consistency threshold
+
+          │
+          ▼
+
+7. [Aligned Final Output]
+   → Only semantically relevant completions are passed forward
