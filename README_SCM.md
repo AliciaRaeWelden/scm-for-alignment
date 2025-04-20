@@ -92,6 +92,6 @@ streamlit run app.py
 
 - [SCF Methods in Quantum Chemistry](https://en.wikipedia.org/wiki/Self-consistent_field)
 - [Transformer Interpretability Challenges](https://arxiv.org/abs/2010.10596)
-- [Why Inference-Time Safety Matters](https://www.alignmentforum.org/posts/...)
+- [Why Inference-Time Safety Matters](https://arxiv.org/pdf/2306.03341)
 
 ---
